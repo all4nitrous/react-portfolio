@@ -18,7 +18,7 @@
     --color-primary-variant: #c026d3;
     --color-white: #fff;
     --color-light: rgba(255,255,255,0.6);
-    --transiton: all 400ms ease;
+
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-wdith-sm: 90%;
@@ -32,13 +32,6 @@ html {
     display: none;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
-    color: var(--color-white);
-    line-height: 1.7;
-    background-image: url(../src/assests/bg-texture.png);
-}
 
 .container {
     width: var(--container-width-lg);
@@ -73,57 +66,12 @@ section > h2 {
 
 a {
     color: var(--color-primary);
-    transition: var(--transition);
+    transition: var(--transiton);
 }
 
 a:hover {
      color: var(--color-white);
 }
-
-.btn {
-    width: max-content;
-    display: inline-block;
-    color: var(--color-primary);
-    padding: 0.75rem 1.2rem;
-    border-radius: 0.4rem;
-    cursor: pointer;
-    border: 1px solid var(--color-primary);
-    transition: var(--transition)
-}
-
-.btn:hover {
-    background: var(--color-white);
-    color: var(--color-bg);
-    border-color: transparent;
-}
-
-.btn-primary {
-    background: var(--color-primary);
-    color: var(--color-bg);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
