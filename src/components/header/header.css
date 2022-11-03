@@ -76,6 +76,15 @@ font-size: 0.9rem;
     header {
         height: 100vh;
     }
+
+.header_socials, .scroll_down {
+    display: none;
+}
+
+
+
+
+
 }
 
 
