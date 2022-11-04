@@ -15,7 +15,7 @@ const Services = () => {
       </h3>
     </div>
   
-  <ul className='service_list'>
+  <ul className="service_list">
     <li>
       <BiCheck className='service_list-icon'/>
       <p>Research</p>
@@ -55,7 +55,7 @@ const Services = () => {
       </h3>
     </div>
   
-  <ul className='service_list'>
+  <ul className="service_list">
     <li>
       <BiCheck className='service_list-icon'/>
       <p>ReactJS Develpment</p>
@@ -101,7 +101,7 @@ const Services = () => {
       </h3>
     </div>
   
-  <ul className='service_list'>
+  <ul className="service_list">
     <li>
       <BiCheck className='service_list-icon'/>
       <p>Content Ideation</p>
@@ -131,14 +131,11 @@ const Services = () => {
       <BiCheck className='service_list-icon'/>
       <p>Design and Develpment</p>
     </li>
-
-
- </ul>
+</ul>
   </article>
   {/*END OF CONTENT CREATION*/}
 </div>
-
-    </section>
+</section>
   )
 }
 
