@@ -83,7 +83,7 @@
 
 }
 
-/*====================MEDIA QUEIRIES (medium devices)====================*/
+/*====================MEDIA QUEIRIES (small devices)====================*/
 
 @media screen and (max-width: 600px) {
     .about_me {
