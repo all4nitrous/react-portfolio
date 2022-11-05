@@ -26,7 +26,7 @@ const Portfolio = () => {
       slidesPerView={1}
       pagination={{ clickable: true }}>
         <SwiperSlide className='portfolio_item'>
-          <div className="portfolio_item-image"><img src={IMG1}  /></div>
+          <div className="portfolio_item-image"><img src={IMG1} /></div>
           <h3>Glassmorphic Calculator</h3>
 <div className="portfolio_item-cta">
 <a href="https://github.com/all4nitrous/calculator-project" className='btn' target="_blank">Github</a>
@@ -36,7 +36,7 @@ const Portfolio = () => {
         </SwiperSlide>
 
         <SwiperSlide className='portfolio_item'>
-          <div className="portfolio_item-image"><img src={IMG2}/></div>
+          <div className="portfolio_item-image"><img src={IMG2} height="600"/></div>
           <h3>Analog Clock</h3>
           <div className="portfolio_item-cta">
           <a href="https://github.com/all4nitrous/Analog-clock" className='btn' target="_blank">Github</a>
@@ -46,7 +46,7 @@ const Portfolio = () => {
         </SwiperSlide>
 
         <SwiperSlide className='portfolio_item'>
-          <div className="portfolio_item-image"><img src={IMG3}/></div>
+          <div className="portfolio_item-image"><img src={IMG3} height="600"/></div>
           <h3>Loading Animation</h3>
 <div className="portfolio_item-cta"><a href="https://github.com/all4nitrous/Loading-animation--1" className='btn' target="_blank">Github</a>
           <a href=" https://all4nitrous.github.io/Loading-animation--1/" className='btn btn-primary' target="_blank">Live Demo</a>
@@ -55,7 +55,7 @@ const Portfolio = () => {
 
 
         <SwiperSlide className='portfolio_item'>
-          <div className="portfolio_item-image"><img src={IMG4}/></div>
+          <div className="portfolio_item-image"><img src={IMG4} height="600"/></div>
           <h3>Interest Calculator</h3>
         <div className="portfolio_item-cta"><a href="https://github.com/all4nitrous/vftvk-Simple-Interest-Calculator" className='btn' target="_blank">Github</a>
           <a href="https://all4nitrous.github.io/vftvk-Simple-Interest-Calculator/" className='btn btn-primary' target="_blank">Live Demo</a>
