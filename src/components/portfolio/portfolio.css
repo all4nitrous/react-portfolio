@@ -17,8 +17,10 @@
     background: transparent;
 }
 
-.portfolio_item-image  {
-    border-radius: 1.5rem;
+.portfolio_item-image {
+    object-fit: cover;
+   object-position: center;
+    height: 65vh;
     overflow: hidden;
 }
 
@@ -30,6 +32,7 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+    
 }
 
 
